@@ -60,6 +60,6 @@ def dfs(input_state: list, show_work: bool = True):
 
 
 if __name__ == "__main__":
-    new_inp = read_input("C:\\Users\\Felix Unterleiter\\PycharmProjects\\pythonProject\\input.txt")
+    new_inp = read_input("...\\input.txt")
     print(dfs(input_state=new_inp, show_work=True))  # by adding the argument show_work=False to the dfs method, only the
     # solved sudoku will be displayed
